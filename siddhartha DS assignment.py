@@ -1,10 +1,16 @@
+#siddharth tiwari cce sec 'B' 23fe10cce00085 
+#I have written this code with python using 
+#panda,matplotlib and seaborn and i have taken
+#notice for any comment or necessary statistics to use in the code.
+# from the given accident dataset,these were the code obtained from the situation.
+
 # Import necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-df = pd.read_csv('/Users/kshitij/Desktop/data/accidents.csv')
+df = pd.read_csv('/Users/siddharth/Desktop/data/accidents.csv')
 
 # Display the first few rows of the dataset
 print(df.head())
